@@ -14,7 +14,7 @@
   "author": "zy0n",
   "license": "MIT",
   "dependencies": {
-    "zyku": "github:zy0n/zy-node"
+    "zyku": "https://github.com/zy0n/zy-node.git"
   },
   "devDependencies": {
     "@types/node": "^22.8.7",
