@@ -13,7 +13,7 @@
   "author": "zy0n",
   "license": "MIT",
   "dependencies": {
-    "zyku": "https://github.com/zy0n/zy-node.git#1.0.1"
+    "zyku": "https://github.com/zy0n/zy-node.git#1.0.2"
   },
   "devDependencies": {
     "@types/node": "^22.8.7",
