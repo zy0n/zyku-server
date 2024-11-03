@@ -4,7 +4,6 @@
   "description": "base node application for starting the network",
   "main": "dist/index.js",
   "scripts": {
-    "copy:zyku": "cp -r ../zyku ./node_modules/zyku",
     "start": "node dist/index.js",
     "dev": "ts-node src/index.ts",
     "clean": "rm -rf dist",
@@ -14,7 +13,7 @@
   "author": "zy0n",
   "license": "MIT",
   "dependencies": {
-    "zyku": "https://github.com/zy0n/zy-node.git"
+    "zyku": "https://github.com/zy0n/zy-node.git#1.0.1"
   },
   "devDependencies": {
     "@types/node": "^22.8.7",
