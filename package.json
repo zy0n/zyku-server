@@ -1,0 +1,26 @@
+{
+  "name": "zyku-server",
+  "version": "1.0.0",
+  "description": "base node application for starting the network",
+  "main": "dist/index.js",
+  "scripts": {
+    "copy:zyku": "cp -r ../zyku ./node_modules/zyku",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "clean": "rm -rf dist",
+    "build": "yarn clean && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zy0n",
+  "license": "MIT",
+  "dependencies": {
+    "zyku": "github:zy0n/zy-node"
+  },
+  "devDependencies": {
+    "@types/node": "^22.8.7",
+    "chai": "^5.1.2",
+    "mocha": "^10.8.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
